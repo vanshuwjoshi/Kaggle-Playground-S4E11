@@ -111,3 +111,7 @@ Steps:
 - No null value
 - However, classes are imbalanced, more 0's than 1's. Therefore, for spliting the data we should use stratified sampling.
 
+
+### Correlation matrix
+- Depression has high correlation with almost all numeric columns except CGPA (noted before as well).
+- Should check this graph again after data cleaning.
