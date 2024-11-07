@@ -53,11 +53,22 @@
 - Lesser the study satisfaction, higher the percentage of being depressed.
 - Majority of the students who have given 4 or less on study satisfaction are depressed.
 
-
 ### 10. Job Satisfaction
 
 - 27000 missing values.
 - Same trend as study satisfaction, lesser the job satisfaction, higher the percentage of being depressed.
 
+### 11. Sleep Duration
+
+- No null values.
+- Need to clean this column, then visualize
+- Highest number of depressed people have less than 5 hours of sleep.
+
+### 12. Dietary Habits
+- 4 null values (can remove them if they are not "depressed").
+- Clean the column as well to visualize better.
+- "More Healthy" -> "Healthy" and so on
+- Unhealthy habits in diet may lead to high chance of depression.
 
 
+### 13. 
