@@ -104,4 +104,10 @@ Steps:
 
 ### 17. Family History of Mental Illness
 
+- No null value
+- Looking at the graph, we can say that family history of mental illness does not really impact the person feeling depressed.
+
+### 18. Target Variable - Depression
+- No null value
+- However, classes are imbalanced, more 0's than 1's. Therefore, for spliting the data we should use stratified sampling.
 
