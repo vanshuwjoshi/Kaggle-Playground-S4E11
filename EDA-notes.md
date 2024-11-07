@@ -1,5 +1,13 @@
 # Exploratory Data Analysis
 
+Steps:
+
+1. Exploratory Data Analysis
+2. Data cleaning
+3. Explanatory Analysis - Clean graphs and maybe dashboard
+4. Data transformation - scaling and all
+5. Model
+
 ## Columns
 
 ### 1. Gender
@@ -65,10 +73,35 @@
 - Highest number of depressed people have less than 5 hours of sleep.
 
 ### 12. Dietary Habits
+
 - 4 null values (can remove them if they are not "depressed").
 - Clean the column as well to visualize better.
 - "More Healthy" -> "Healthy" and so on
 - Unhealthy habits in diet may lead to high chance of depression.
 
+### 13. Degree
 
-### 13. 
+- 2 null values
+- Maybe can combine all 12th, bachelors, masters, phd.
+- Can make them ordinal as well.
+- Bad visualization. Need cleaning
+- Majority of Class 12 students feel depressed.
+
+### 14. Have you ever had suicidal thoughts ?
+
+- No null values
+- There is a high chance that people who have suicidal thought are depressed compared to people who do not have suicidal thoughts.
+
+### 15. Work/Study Hours
+
+- No null values
+- Higher the number of hours is may lead to people being depressed.
+
+### 16. Financial Stress
+
+- 4 null values
+- High financial stress means higher chance of person feeling depressed.
+
+### 17. Family History of Mental Illness
+
+
