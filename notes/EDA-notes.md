@@ -4,9 +4,10 @@ Steps:
 
 1. Exploratory Data Analysis
 2. Data cleaning
-3. Explanatory Analysis - Clean graphs and maybe dashboard
-4. Data transformation - scaling and all
-5. Model
+3. Data cleaning for Explanatory Analysis
+4. Explanatory Analysis - Clean graphs and maybe dashboard
+5. Data transformation - scaling and all
+6. Model
 
 ## Columns
 
