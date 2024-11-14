@@ -40,3 +40,11 @@
 
 
 ### 7. CGPA
+- Filling null values with -1 (since the rows are for working professionals)
+- Rest values are rounded.
+
+### 8. Sleep Duration
+- Created 4 categories - 5, 6, 7, 8. 
+- More than 8 are 8, less than 5 are 5. If 1 hour range is provided = higher number. If more than 1 hour range provided = average
+- If weekly provided - divide by 7
+- Other incorrect values replaced by mode = 8.
