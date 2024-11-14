@@ -65,3 +65,15 @@
 ### 12. Financial Stress
 
 - Filled null values with median = 3
+
+### 13. Work/Study Hours
+
+- No need to change anything
+
+### 14. Degree
+
+- {"others": 0, "high_school": 1, "bachelors": 2, "masters": 3, "PhD": 4}
+
+
+Further - Explore City, Profession
+- Remove Gender_Male
