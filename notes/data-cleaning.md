@@ -27,3 +27,16 @@
 - Rest null values = "Unemployed"
 - People who have listed their wrong professions, are all working professionals, we can combine them together to "Others".
 - Mean encoding
+
+
+### 6. Academic Pressure and Work Pressure
+- Combine Academic Pressure and Work Pressure as "Pressure"
+- Rest of the null values are replaced by median = 3
+- Drop the Academic Pressure
+
+
+### 6. Study Satisfaction and Job Satisfaction
+- Repeating the same as above
+
+
+### 7. CGPA
