@@ -20,31 +20,48 @@
 - Binary column and we saw that student have high percentage of depressed people.
 - Encoding 0-Working and 1-Student
 
-
 ### 5. Profession
+
 - For the null values it could either be - Unemployed or Student
 - 27800 are students. So can replace the null values with Student
 - Rest null values = "Unemployed"
 - People who have listed their wrong professions, are all working professionals, we can combine them together to "Others".
 - Mean encoding
 
-
 ### 6. Academic Pressure and Work Pressure
+
 - Combine Academic Pressure and Work Pressure as "Pressure"
 - Rest of the null values are replaced by median = 3
 - Drop the Academic Pressure
 
-
 ### 6. Study Satisfaction and Job Satisfaction
+
 - Repeating the same as above
 
-
 ### 7. CGPA
+
 - Filling null values with -1 (since the rows are for working professionals)
 - Rest values are rounded.
 
 ### 8. Sleep Duration
-- Created 4 categories - 5, 6, 7, 8. 
+
+- Created 4 categories - 5, 6, 7, 8.
 - More than 8 are 8, less than 5 are 5. If 1 hour range is provided = higher number. If more than 1 hour range provided = average
 - If weekly provided - divide by 7
 - Other incorrect values replaced by mode = 8.
+
+### 9. Dietary Habits
+
+- Three categories - Unhealthy:2, Moderate:1, and Healthy:0
+
+### 10. Have you ever had suicidal thoughts ?
+
+- No:0, Yes:1
+
+### 11. Family History of Mental Illness
+
+- No:0, Yes:1
+
+### 12. Financial Stress
+
+- Filled null values with median = 3
